@@ -1,0 +1,30 @@
+[
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=1&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=2&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=3&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=4&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=5&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=6&pageSize=30"
+    },
+    {
+        "parser_name": "list",
+        "url": "https://db.yaozh.com/goods?p=7&pageSize=30"
+    }
+]

@@ -1,0 +1,47 @@
+{
+  "name": "list",
+  "example_url": "https://db.yaozh.com/goods?p=1&pageSize=30",
+  "default_fields": true,
+  "rules": {
+    "root": [
+      {
+        "type": "url",
+        "key": "list",
+        "xpath": "//a[text()='下一页']"
+      },
+      {
+        "type": "dom",
+        "key": "item",
+        "xpath": "//div[@class='main']//table//tr"
+      }
+    ],
+    "item": [
+      {
+        "type": "text",
+        "key": "药品通用名",
+        "xpath": "./td[1]"
+      },
+      {
+        "type": "text",
+        "key": "药品商品名",
+        "xpath": "./td[2]"
+      },
+      {
+        "type": "text",
+        "key": "批准文号",
+        "xpath": "./td[3]"
+      },
+      {
+        "type": "text",
+        "key": "规格",
+        "xpath": "./td[4]"
+      },
+      {
+        "type": "text",
+        "key": "国家/厂家",
+        "xpath": "./td[5]"
+      }
+    ]
+  },
+  "js": ""
+}
